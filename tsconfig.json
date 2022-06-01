@@ -23,18 +23,18 @@
       "@test/*": ["./test/*"]
     },
     "rootDirs": [
-      "./src", 
+      "./src",
       "./test"
     ],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "include": [
-      "./src/*", 
-      "./test/*"
-    ],
-    "exclude": [
-      "./node_modules/*", 
-      "./dist/*"
-    ],
-  }
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./test/**/*.ts"
+  ],
+  "exclude": [
+    "./node_modules/*",
+    "dist"
+  ],
 }
