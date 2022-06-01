@@ -8,7 +8,7 @@
     "build": "tsc",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src --ext .ts --fix",
-    "test": ""
+    "test": "echo 'Teste'"
   },
   "keywords": [],
   "author": "",
