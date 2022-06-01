@@ -1,5 +1,5 @@
 {
-  "name": "@newspacebpo/clean-node-api",
+  "name": "node-api-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,13 @@
     "lint:fix": "eslint ./src --ext .ts --fix",
     "test": "echo 'Teste'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "typescript",
+    "api"
+  ],
+  "author": "Italo Cedro",
+  "license": "MIT",
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
     "@types/node": "^17.0.38",
