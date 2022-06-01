@@ -1,2 +1,2 @@
-console.log('Teste
-');
+const files = (file: string) => file;
+files('test');
