@@ -1,7 +1,7 @@
 {
   "name": "node-api-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "API node usando clean",
   "main": "index.js",
   "scripts": {
     "start": "npm run build && node dist/index.js",
@@ -9,7 +9,7 @@
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src --ext .ts --fix",
     "test": "jest",
-    "test:staged": "echo 'Teste'"
+    "test:staged": "jest"
   },
   "keywords": [
     "node",
